@@ -2,6 +2,422 @@ Event Logs Monitoring
 ==================================================
 
             New Event Detected:
+            Time: 2025-01-18 18:12:28
+            Event ID: 16
+            Source: Microsoft-Windows-Kernel-General
+            Category: 0
+            Description: ('94', '\\??\\C:\\Users\\Asus\\AppData\\Local\\Packages\\Microsoft.LockApp_cw5n1h2txyewy\\Settings\\settings.dat', '3', '1')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 18:12:26
+            Event ID: 566
+            Source: Microsoft-Windows-Kernel-Power
+            Category: 268
+            Description: ('12', '1', '16', '2', '116338599', '14660', '48898', '14660', '48898', '17', '0', 'false', '1')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 18:12:26
+            Event ID: 507
+            Source: Microsoft-Windows-Kernel-Power
+            Category: 158
+            Description: ('0', '28886526', '997737070', '28113010', '106290653', '135177179', '3', '97', 'false', '1', '0', '1018150', 'false', '105463225', '335210', 'true', 'true', '167284', '7', '0', 'true', 'false', '17', 'false', '14660', '48898', '15', '12', '0', '18446744072737629341', '106290653', '105463225', '0', '0', '221854', 'true', '14660', '14660', '18837882', '14660', '14660', '116338599', '48898', '48898', '48898', '48898', '4', '0', '0', '0', '106290653', '105463225')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 18:12:26
+            Event ID: 172
+            Source: Microsoft-Windows-Kernel-Power
+            Category: 203
+            Description: ('0', '0')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 18:10:36
+            Event ID: 172
+            Source: Microsoft-Windows-Kernel-Power
+            Category: 203
+            Description: ('2', '7')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 18:10:30
+            Event ID: 566
+            Source: Microsoft-Windows-Kernel-Power
+            Category: 268
+            Description: ('12', '12', '15', '1', '18837882', '14660', '48898', '14660', '48898', '16', '2', 'false', '12')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 18:10:11
+            Event ID: 506
+            Source: Microsoft-Windows-Kernel-Power
+            Category: 157
+            Description: ('12', 'true', 'false', '15', '14660', '48898', '15', '12')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 18:10:11
+            Event ID: 566
+            Source: Microsoft-Windows-Kernel-Power
+            Category: 268
+            Description: ('12', '12', '14', '0', '1884585353', '9290', '48898', '14660', '48898', '15', '1', 'false', '12')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 17:55:39
+            Event ID: 105
+            Source: Microsoft-Windows-Kernel-Power
+            Category: 100
+            Description: ('false', '16620', '48898')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 17:39:30
+            Event ID: 1073748864
+            Source: Service Control Manager
+            Category: 0
+            Description: ('Background Intelligent Transfer Service', 'auto start', 'demand start', 'BITS')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 17:38:47
+            Event ID: 566
+            Source: Microsoft-Windows-Kernel-Power
+            Category: 268
+            Description: ('12', '31', '12', '1', '66041468', '8304', '48898', '9290', '48898', '14', '0', 'true', '31')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 17:38:47
+            Event ID: 507
+            Source: Microsoft-Windows-Kernel-Power
+            Category: 158
+            Description: ('0', '66041972', '0', '0', '0', '66041972', '0', '97', 'false', '31', '0', '0', 'true', '0', '123272', 'false', 'true', '0', '7', '0', 'true', 'false', '14', 'false', '9290', '48898', '12', '12', '0', '66041972', '0', '0', '0', '0', '105349', 'false', '8304', '9290', '66041468', '0', '0', '0', '48898', '48898', '0', '0', '4', '0', '0', '0', '0', '0')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 17:38:37
+            Event ID: 1014
+            Source: Microsoft-Windows-DNS-Client
+            Category: 1014
+            Description: ('wpad', '128', '0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000', '15644')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 17:38:28
+            Event ID: 1014
+            Source: Microsoft-Windows-DNS-Client
+            Category: 1014
+            Description: ('wpad', '128', '0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000', '2676')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 17:38:13
+            Event ID: 11
+            Source: Microsoft-Windows-Kernel-General
+            Category: 0
+            Description: ('79', '\\??\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy3\\WINDOWS\\System32\\config\\DRIVERS', '{fe0939c9-d59a-11ef-a0ff-ac50debd3ca8}', '{fe0939c8-d59a-11ef-a0ff-ac50debd3ca8}', '0xc00000a2', '7')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 17:38:13
+            Event ID: 11
+            Source: Microsoft-Windows-Kernel-General
+            Category: 0
+            Description: ('78', '\\??\\GLOBALROOT\\Device\\HarddiskVolumeShadowCopy3\\WINDOWS\\System32\\config\\SYSTEM', '{fe0939c6-d59a-11ef-a0ff-ac50debd3ca8}', '{fe0939c5-d59a-11ef-a0ff-ac50debd3ca8}', '0xc00000a2', '7')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 17:38:09
+            Event ID: 16
+            Source: Microsoft-Windows-Kernel-General
+            Category: 0
+            Description: ('85', '\\??\\C:\\ProgramData\\Microsoft\\Provisioning\\Microsoft-Desktop-Provisioning-Sequence.dat', '0', '0')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 17:37:41
+            Event ID: 506
+            Source: Microsoft-Windows-Kernel-Power
+            Category: 157
+            Description: ('12', 'true', 'false', '12', '8304', '48898', '12', '12')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 17:37:41
+            Event ID: 566
+            Source: Microsoft-Windows-Kernel-Power
+            Category: 268
+            Description: ('12', '12', '11', '0', '48533116', '8304', '48898', '8304', '48898', '12', '1', 'true', '12')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 17:37:25
+            Event ID: 1073748864
+            Source: Service Control Manager
+            Category: 0
+            Description: ('Background Intelligent Transfer Service', 'demand start', 'auto start', 'BITS')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 17:37:07
+            Event ID: 105
+            Source: Microsoft-Windows-Kernel-Power
+            Category: 100
+            Description: ('true', '8304', '48898')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 17:37:03
+            Event ID: 1014
+            Source: Microsoft-Windows-DNS-Client
+            Category: 1014
+            Description: ('wpad', '128', '0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000', '2676')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 17:36:52
+            Event ID: 566
+            Source: Microsoft-Windows-Kernel-Power
+            Category: 268
+            Description: ('12', '1', '10', '2', '294777170', '8304', '48898', '8304', '48898', '11', '0', 'false', '1')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 17:36:52
+            Event ID: 507
+            Source: Microsoft-Windows-Kernel-Power
+            Category: 158
+            Description: ('0', '41893532', '2629658645', '39440467', '258531512', '300425044', '2', '97', 'false', '1', '0', '820728', 'false', '257859741', '418142', 'true', 'true', '317055', '7', '0', 'true', 'false', '11', 'false', '8304', '48898', '9', '12', '0', '18446744071116536534', '258531512', '257859741', '0', '0', '63713', 'true', '8304', '8304', '5647581', '8304', '8304', '294777170', '48898', '48898', '48898', '48898', '4', '0', '0', '0', '258531512', '257859741')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 17:36:52
+            Event ID: 172
+            Source: Microsoft-Windows-Kernel-Power
+            Category: 203
+            Description: ('0', '0')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 17:32:03
+            Event ID: 172
+            Source: Microsoft-Windows-Kernel-Power
+            Category: 203
+            Description: ('2', '7')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 17:31:57
+            Event ID: 566
+            Source: Microsoft-Windows-Kernel-Power
+            Category: 268
+            Description: ('12', '12', '9', '1', '5647581', '8304', '48898', '8304', '48898', '10', '2', 'false', '12')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 17:31:52
+            Event ID: 506
+            Source: Microsoft-Windows-Kernel-Power
+            Category: 157
+            Description: ('12', 'true', 'false', '9', '8304', '48898', '9', '12')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 17:31:52
+            Event ID: 566
+            Source: Microsoft-Windows-Kernel-Power
+            Category: 268
+            Description: ('12', '12', '8', '0', '182220115', '8791', '48898', '8304', '48898', '9', '1', 'false', '12')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 17:29:57
+            Event ID: 1014
+            Source: Microsoft-Windows-DNS-Client
+            Category: 1014
+            Description: ('wpad', '128', '0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000', '12420')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 17:28:59
+            Event ID: 1014
+            Source: Microsoft-Windows-DNS-Client
+            Category: 1014
+            Description: ('wpad', '128', '0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000', '15644')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 17:28:49
+            Event ID: 1074069522
+            Source: BTHUSB
+            Category: 0
+            Description: ('',)
+            
+
+            New Event Detected:
+            Time: 2025-01-18 17:28:49
+            Event ID: 566
+            Source: Microsoft-Windows-Kernel-Power
+            Category: 268
+            Description: ('12', '31', '7', '2', '479472763', '8791', '48898', '8791', '48898', '8', '0', 'false', '31')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 17:28:49
+            Event ID: 507
+            Source: Microsoft-Windows-Kernel-Power
+            Category: 158
+            Description: ('0', '484512040', '4267420993', '0', '0', '484512040', '0', '97', 'false', '31', '0', '2637385', 'false', '0', '364488', 'true', 'true', '0', '7', '4', 'true', 'false', '8', 'false', '8791', '48898', '6', '12', '0', '18446744069454995193', '0', '0', '0', '0', '128410', 'true', '8791', '8791', '5039370', '8791', '8791', '479472763', '48898', '48898', '48898', '48898', '4', '0', '0', '0', '0', '0')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 17:28:49
+            Event ID: 172
+            Source: Microsoft-Windows-Kernel-Power
+            Category: 203
+            Description: ('0', '0')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 17:28:20
+            Event ID: 196
+            Source: Microsoft-Windows-USB-USBHUB3
+            Category: 7
+            Description: ('0x69f1d2370398', '11', '1452', '4776', '5125')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 17:22:44
+            Event ID: 196
+            Source: Microsoft-Windows-USB-USBHUB3
+            Category: 7
+            Description: ('0x69f1d2370398', '11', '1452', '4776', '5125')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 17:22:08
+            Event ID: 196
+            Source: Microsoft-Windows-USB-USBHUB3
+            Category: 7
+            Description: ('0x69f1d2370398', '11', '1452', '4776', '5125')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 17:21:33
+            Event ID: 196
+            Source: Microsoft-Windows-USB-USBHUB3
+            Category: 7
+            Description: ('0x69f1d2370398', '5', '1452', '4776', '5125')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 17:20:57
+            Event ID: 172
+            Source: Microsoft-Windows-Kernel-Power
+            Category: 203
+            Description: ('2', '1')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 17:20:57
+            Event ID: 1074069522
+            Source: BTHUSB
+            Category: 0
+            Description: ('',)
+            
+
+            New Event Detected:
+            Time: 2025-01-18 17:20:50
+            Event ID: 566
+            Source: Microsoft-Windows-Kernel-Power
+            Category: 268
+            Description: ('12', '55', '6', '1', '5039370', '8791', '48898', '8791', '48898', '7', '2', 'false', '55')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 17:20:45
+            Event ID: 506
+            Source: Microsoft-Windows-Kernel-Power
+            Category: 157
+            Description: ('55', 'true', 'false', '6', '8791', '48898', '6', '12')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 17:20:45
+            Event ID: 566
+            Source: Microsoft-Windows-Kernel-Power
+            Category: 268
+            Description: ('12', '55', '5', '2', '107560328', '9290', '48898', '8791', '48898', '6', '1', 'false', '55')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 17:20:45
+            Event ID: 507
+            Source: Microsoft-Windows-Kernel-Power
+            Category: 158
+            Description: ('14355', '125134413', '920802438', '0', '0', '125134413', '0', '97', 'false', '55', '0', '3062128', 'false', '0', '0', 'true', 'true', '0', '7', '0', 'true', 'false', '6', 'true', '8791', '48898', '4', '12', '0', '18446744072812947792', '0', '0', '0', '0', '0', 'true', '9290', '9290', '17571153', '9290', '8791', '107560328', '48898', '48898', '48898', '48898', '4', '0', '0', '0', '0', '0')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 17:20:45
+            Event ID: 172
+            Source: Microsoft-Windows-Kernel-Power
+            Category: 203
+            Description: ('0', '0')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 17:20:14
+            Event ID: 196
+            Source: Microsoft-Windows-USB-USBHUB3
+            Category: 7
+            Description: ('0x69f1d2370398', '11', '1452', '4776', '5125')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 17:19:39
+            Event ID: 196
+            Source: Microsoft-Windows-USB-USBHUB3
+            Category: 7
+            Description: ('0x69f1d2370398', '5', '1452', '4776', '5125')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 17:19:04
+            Event ID: 172
+            Source: Microsoft-Windows-Kernel-Power
+            Category: 203
+            Description: ('2', '7')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 17:18:57
+            Event ID: 566
+            Source: Microsoft-Windows-Kernel-Power
+            Category: 268
+            Description: ('12', '12', '4', '1', '17571153', '9290', '48898', '9290', '48898', '5', '2', 'false', '12')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 17:18:40
+            Event ID: 506
+            Source: Microsoft-Windows-Kernel-Power
+            Category: 157
+            Description: ('12', 'true', 'false', '4', '9290', '48898', '4', '12')
+            
+
+            New Event Detected:
+            Time: 2025-01-18 17:18:40
+            Event ID: 566
+            Source: Microsoft-Windows-Kernel-Power
+            Category: 268
+            Description: ('12', '12', '3', '0', '8285364269', '30306', '48898', '9290', '48898', '4', '1', 'false', '12')
+            
+
+            New Event Detected:
             Time: 2025-01-18 16:59:57
             Event ID: 1074135073
             Source: volsnap
