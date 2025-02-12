@@ -1,0 +1,6898 @@
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:36:24.022662",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "134.224.240.214",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection from a remote IP]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:37:42.074482",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "104.18.32.47",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection from a remote IP]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:37:43.122674",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "52.168.112.67",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [unknown remote IP, potential unauthorized access]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:37:43.858207",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "134.224.240.214",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:37:44.404687",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:37:44.571626",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:37:44.738826",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:37:44.902856",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal The log indicates a normal TCP connection between the local and remote IPs, which are both internal IP addresses (127.0.0.1), making it unlikely to be malicious."
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:37:47.018030",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "20.199.120.182",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [unusual remote IP address and no information about the purpose of the connection]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:37:48.161105",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:37:48.340731",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal OR normal (no suspicious connections or blacklisted IPs)"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:37:49.159810",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "104.18.32.47",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:37:49.734682",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "74.125.206.188",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal OR normal (no indication of malicious behavior, just a regular network connection)"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:37:50.842752",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal The log does not indicate any suspicious connection or protocol anomaly, and the local and remote IPs are the same (localhost), which is normal."
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:37:52.628887",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal [normal TCP connection between local IPs, no blacklisting]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:37:53.503472",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:37:53.685414",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "170.114.15.216",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection from an unknown remote IP]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:37:54.550180",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "20.199.120.182",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection from a remote IP that is not blacklisted]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:37:55.605933",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "102.132.103.60",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:37:56.210202",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "3.33.221.48",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection from a non-local IP]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:37:57.063913",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal OR normal (no suspicious activity detected)"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:37:57.692756",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal The log is a legitimate network connection from the local IP to itself, which doesn't raise any suspicious flags."
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:37:59.057003",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal The log appears to be a normal network connection between two local IP addresses, which does not raise any suspicions of malicious activity."
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:37:38.046550",
+        "source_ip": "192.168.1.45",
+        "queried_domain": "inference.location.live.net."
+    },
+    "classification": "normal"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:37:38.058731",
+        "source_ip": "163.121.128.134",
+        "queried_domain": "inference.location.live.net."
+    },
+    "classification": "normal OR normal [DNS query is a normal behavior]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:37:40.945292",
+        "source_ip": "192.168.1.45",
+        "queried_domain": "inference.location.live.net."
+    },
+    "classification": "normal The queried domain appears to be a legitimate Microsoft service, and the source IP is likely an internal IP address, indicating a normal DNS query from within the network."
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:37:41.020958",
+        "source_ip": "192.168.1.45",
+        "queried_domain": "inference.location.live.net."
+    },
+    "classification": "normal"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:37:41.024001",
+        "source_ip": "163.121.128.134",
+        "queried_domain": "inference.location.live.net."
+    },
+    "classification": "normal OR normal [no suspicious activity detected]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:37:41.045711",
+        "source_ip": "163.121.128.135",
+        "queried_domain": "inference.location.live.net."
+    },
+    "classification": "normal OR normal (DNS query to a legitimate domain)"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:10.001365",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "13.107.42.16",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:10.324442",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "104.18.32.47",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection from an unknown remote IP]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:11.186986",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "204.79.197.203",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [unusual remote IP and protocol combination]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:11.937916",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "52.168.112.67",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection from an unknown IP address]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:12.739126",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "134.224.240.214",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection from unknown remote IP]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:13.514064",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal This log appears to be a normal network connection between two internal IP addresses, which is not suspicious or malicious in nature."
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:15.112925",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal This log appears to be a normal network connection from the local IP address (127.0.0.1) to itself, which is not unusual or suspicious."
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:17.143893",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal OR normal (no malicious indicators)"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:17.764099",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:17.998490",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal OR normal (no suspicious connection, no blacklisting)"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:18.810220",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "20.199.120.182",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection from an unknown remote IP]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:19.798766",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:20.010464",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:20.204027",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal OR normal (no suspicious protocol or remote IP, no blacklisting)"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:21.171863",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "104.18.32.47",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection from a remote IP address]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:22.014862",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "74.125.206.188",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:22.194837",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal No malicious behavior detected from network logs."
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:22.837144",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:23.057840",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal OR This log does not indicate any suspicious or malicious behavior, as the local and remote IP addresses are both 127.0.0.1 (localhost), indicating a local connection that is unlikely to be malicious."
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:25.646931",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "170.114.15.216",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection from a remote IP that is not blacklisted]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:26.722609",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "20.199.120.182",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious remote access attempt from a blacklisted IP address (20.199.120.182)"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:28.033371",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "102.132.103.60",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection from an unknown remote IP]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:28.971322",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "3.33.221.48",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:29.557196",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:29.728923",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal OR normal (no malicious indicators)"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:30.287469",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal [no suspicious activity detected]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:35.794979",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "13.107.42.16",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection from a blacklisted IP]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:36.904850",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "104.18.32.47",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection from a known bad IP]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:37.930500",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "204.79.197.222",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection to a remote IP that is not blacklisted]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:39.272787",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "204.79.197.203",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection from unknown IP]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:40.191227",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "52.168.112.67",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection from unknown remote IP]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:41.152312",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "134.224.240.214",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious suspicious connection from a non-local IP address"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:41.943633",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal [no suspicious connection or blacklisted IP]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:42.669484",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal OR normal (no malicious activity detected, just a benign TCP connection)"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:43.624126",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:43.801333",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal OR normal (no suspicious activity detected)"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:44.407132",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "13.107.6.254",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection from an unknown remote IP]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:45.227410",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:45.399522",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "20.199.120.182",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:45.571659",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal The log indicates a connection between two local IPs, which is likely normal traffic as it's not an external connection and the protocol is TCP (not often used for malicious activity)."
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:47.765850",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal OR normal (no suspicious activity or blacklisting)"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:48.615361",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal The log indicates a connection from the local IP address to itself, which is normal behavior."
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:49.855618",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "150.171.64.254",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection from a remote IP]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:50.659490",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "104.18.32.47",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious suspicious connection from a remote IP that is not blacklisted"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:51.511602",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "74.125.206.188",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:51.690384",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "92.122.225.97",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection from unknown remote IP]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:52.478715",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal The log indicates a local connection from 127.0.0.1 to itself, which is not suspicious."
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:53.954718",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal OR network log with local and remote IPs being the same, not suspicious"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:54.937410",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal OR normal (no suspicious connection or file transfer)"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:55.680632",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "2.22.234.27",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:56.247337",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "170.114.15.216",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:56.804371",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "20.199.120.182",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:57.361750",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "102.132.103.60",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:57.915785",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "3.33.221.48",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection from unknown remote IP]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:58.707526",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:38:58.892929",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal OR normal (local and remote IP addresses are the same, indicating a local process; protocol is TCP, which is common; blacklisted flag is false, suggesting no known malicious activity)"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:01.089757",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:06.294880",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "13.107.42.16",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal OR unknown (no malicious behavior detected, but no clear normal activity either)"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:07.533965",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "104.18.32.47",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection from a non-local IP]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:08.417786",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal OR normal (no suspicious connection or file transfer)"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:09.174751",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "204.79.197.222",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:09.812236",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "52.168.112.67",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal [no suspicious connection or IP]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:10.446816",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "134.224.240.214",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection from a remote IP]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:11.355245",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal The log is a legitimate network connection from the same local and remote IP addresses, which does not indicate any suspicious behavior."
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:13.007106",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:13.205099",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal OR no suspicious activity detected, all IPs are local and protocol is TCP."
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:14.334500",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "13.107.6.254",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection from a potentially malicious IP]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:15.307141",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal OR normal [no malicious activity detected]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:15.963574",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "13.107.246.77",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection from a remote IP that is not blacklisted]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:17.181755",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "20.199.120.182",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection from a remote IP address not commonly seen]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:18.323315",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal OR normal (no suspicious connection, local and remote IPs are the same)"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:19.511427",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:19.717118",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "150.171.64.254",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious suspicious connection from a remote IP address that is not blacklisted"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:20.730776",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "104.18.32.47",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious suspicious connection from unknown remote IP"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:21.392861",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "74.125.206.188",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [DNS anomaly, remote access]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:22.096849",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "95.101.114.217",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:22.735006",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "92.122.225.97",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious suspicious connection from a blacklisted IP address (92.122.225.97)"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:24.045195",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal OR normal (no suspicious connections or file transfers detected)"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:24.961359",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:25.140163",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:25.306447",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "2.22.234.27",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal OR normal (unknown protocol and IP addresses are not inherently malicious)"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:26.323882",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "170.114.15.216",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection from a remote IP address]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:27.327918",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "20.199.120.182",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [unknown remote IP]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:27.845318",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "102.132.103.60",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:28.398229",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "3.33.221.48",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection from an unknown remote IP]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:29.240273",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:29.424902",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:29.602465",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:29.773305",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:34.956457",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "13.107.42.16",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious suspicious connection from a remote IP address not in the whitelist."
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:35.980136",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "104.18.32.47",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious suspicious connection from a remote IP address that is not blacklisted"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:36.877829",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal No suspicious connection or file transfer is detected, and the IP addresses are local, making it a normal network log."
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:38.314437",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "204.79.197.222",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious suspicious connection from an unknown remote IP address"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:39.023649",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "52.168.112.67",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal OR normal (no suspicious activity detected)"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:39.659219",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "134.224.240.214",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:40.245605",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal The log does not indicate any suspicious activity, such as a connection from an unusual IP address or a protocol that is uncommon for the given scenario."
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:42.386063",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal OR normal (no suspicious information provided)"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:43.087293",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal The log is a normal network connection between the local and remote IPs, which are both internal addresses (127.0.0.1). There is no indication of suspicious behavior or malicious activity."
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:45.778149",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "13.107.6.254",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:46.390814",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal No suspicious information present in the network log, and the local and remote IPs are the same (127.0.0.1), which is a loopback address indicating internal communication OR normal The protocol is TCP, which is a common and legitimate protocol for data transfer."
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:49.582301",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "13.107.246.77",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [unknown remote IP, potential connection from suspicious location]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:50.435246",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "20.199.120.182",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection from a remote IP address that is not blacklisted]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:51.622572",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal OR normal (no suspicious activity detected)"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:52.376319",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal OR no unusual activity detected (same IP address and protocol, not blacklisted)"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:53.442809",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "150.171.64.254",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:53.618290",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "104.18.32.47",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal The log does not indicate any suspicious or malicious activity, such as a connection from a blacklisted IP address or an unusual protocol."
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:55.200866",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "74.125.206.188",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [unusual connection to public IP address]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:55.935152",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "95.101.114.217",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection to a remote IP address not in the expected range]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:57.135978",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "92.122.225.97",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection from a remote IP]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:57.947056",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal OR normal (no suspicious or malicious activity detected)"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:58.692264",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:58.859596",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:39:59.036314",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "2.22.234.27",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection from a remote IP that is not blacklisted]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:40:00.109939",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "170.114.15.216",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious suspicious connection from an unknown remote IP"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:40:00.725010",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "20.199.120.182",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection from a remote IP]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:40:01.513857",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "102.132.103.60",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection from an unknown remote IP]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:40:02.425668",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "3.33.221.48",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:40:03.036412",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal [no suspicious information]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:40:03.528134",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:40:03.713382",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:40:03.884631",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "104.26.12.170",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection from an unknown remote IP]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:40:04.729623",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal OR normal (no suspicious information provided)"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:40:10.366518",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "104.18.32.47",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection from a remote IP address that is not blacklisted]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:40:11.601506",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:40:11.769856",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "204.79.197.222",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:40:12.313807",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "52.168.112.67",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection from unknown IP]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:40:13.032754",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "134.224.240.214",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection from unknown remote IP]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:40:13.826113",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:40:14.010137",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:40:14.190285",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal OR normal (no suspicious or malicious activity detected)"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:40:14.980544",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "13.107.6.254",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection from a remote IP that is not blacklisted]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:40:16.072223",
+        "local_ip": "127.0.0.1",
+        "remote_ip": "127.0.0.1",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "normal"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:40:16.244213",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "3.233.158.26",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:40:16.790128",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "13.107.246.77",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [suspicious connection from a blacklisted IP address]"
+},
+{
+    "log": {
+        "type": "network",
+        "timestamp": "2025-02-08T17:40:17.661728",
+        "local_ip": "192.168.1.45",
+        "remote_ip": "20.199.120.182",
+        "protocol": "TCP",
+        "blacklisted": false
+    },
+    "classification": "malicious [unusual connection from a blacklisted IP]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:07:31.915883",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:07:35.937357",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "134.224.240.229",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:07:36.609560",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:07:37.828082",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "170.114.1.172",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:07:38.524484",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "102.132.103.61",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:07:39.127338",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:07:39.378716",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "20.199.120.85",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious suspicious connection from a non-local IP address"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:07:40.197205",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:07:41.366691",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:07:42.184072",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "20.42.73.26",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:07:43.411167",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "206.247.138.145",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from an unknown remote IP]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:07:44.419868",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:07:44.641433",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:07:44.823919",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:07:45.042900",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:07:47.858540",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "172.64.155.209",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:07:48.504659",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:07:49.121901",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "13.107.4.254",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from a known malicious IP]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:07:50.138342",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "150.171.64.254",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from a blacklisted remote IP]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:07:51.268731",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "172.64.155.209",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from a remote IP not typically seen]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:07:52.518627",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "102.132.103.60",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:07:53.269209",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "173.194.76.188",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:07:54.053899",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "20.201.14.155",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [unusual remote IP address]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:07:54.894471",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "3.77.249.83",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from an unknown remote IP]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:07:55.836747",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:07:57.560230",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "20.189.173.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:07:58.181923",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "20.199.120.85",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from a foreign IP]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:07:59.068333",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:07:59.813199",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "206.247.138.145",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from an unknown IP]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:07:27.683527",
+    "source_ip": "192.168.1.45",
+    "queried_domain": "mobile.events.data.microsoft.com.",
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:07:27.773189",
+    "source_ip": "163.121.128.134",
+    "queried_domain": "mobile.events.data.microsoft.com.",
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:07:27.917883",
+    "source_ip": "192.168.1.45",
+    "queried_domain": "checkappexec.microsoft.com.",
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:07:27.997895",
+    "source_ip": "163.121.128.134",
+    "queried_domain": "checkappexec.microsoft.com.",
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:21:52.167425",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "20.42.73.26",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from a remote IP that is not blacklisted]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:21:55.785741",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:21:56.320581",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:21:58.428193",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "102.132.103.60",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from a remote IP]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:21:59.268633",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:21:59.459579",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:21:59.642337",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "20.199.120.85",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:22:00.408918",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:22:00.609687",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "150.171.64.254",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:22:01.237763",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:22:02.357004",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "52.137.125.63",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious suspicious connection from an unknown remote IP address"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:22:03.045141",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "170.114.1.172",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from a remote IP that is not blacklisted]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:22:04.178870",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "134.224.240.229",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from remote IP]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:22:04.912519",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:22:05.695792",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:22:06.910688",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:22:08.711105",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "172.64.155.209",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious unknown protocol connection from suspicious IP address"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:22:09.445920",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:22:09.623191",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "102.132.103.61",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from a non-local IP address]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:22:10.513672",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "3.77.249.83",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from untrusted remote IP]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:22:11.361715",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "20.189.173.26",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from unknown IP]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:22:12.130016",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:22:13.653046",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "13.107.4.254",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:22:14.441559",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "52.41.6.249",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from a non-trusted IP address]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:22:15.446913",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "52.137.125.63",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious remote IP is blacklisted in our network's firewall rules"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:22:16.398084",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "52.41.6.249",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from an unknown IP]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:22:17.234936",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:22:18.163678",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "172.64.155.209",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:22:18.362054",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "206.247.138.145",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:22:19.196284",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "20.199.120.85",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious suspicious connection from untrusted IP address"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:22:19.817237",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "2.21.14.10",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious suspicious connection from a remote IP not in the whitelist"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:22:20.651735",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "52.137.125.63",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from a remote IP that is not blacklisted]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:22:21.713524",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "173.194.76.188",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:22:21.890596",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "206.247.138.145",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:25:49.004718",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "3.75.168.79",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from a blacklisted IP address]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:25:50.129907",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "134.224.240.229",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:25:51.354425",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:25:53.326334",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "172.64.155.209",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:25:54.413538",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "13.107.4.254",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from a blacklisted IP]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:25:55.284209",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "20.189.173.3",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from a remote IP address]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:25:56.147838",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:25:56.338863",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:25:56.517240",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:25:56.694869",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "170.114.52.83",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious suspicious connection from unknown remote IP address"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:25:57.332403",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "79.140.80.59",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious suspicious connection from an unknown remote IP address"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:25:58.017130",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "20.42.73.26",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from a non-local IP]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:25:58.957589",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "173.194.76.188",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection to Google's IP address (173.194.76.188)]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:26:00.257736",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:26:00.433989",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "204.79.197.222",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from a non-local IP address]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:26:01.332520",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "79.140.80.50",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from a remote IP]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:26:02.117236",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "52.123.129.254",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:26:02.291333",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "170.114.52.4",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection to a remote IP address not found in blacklists]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:26:03.402320",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "170.114.45.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [unusual remote connection from a blacklisted IP]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:26:04.247330",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "150.171.64.254",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from an unknown remote IP address]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:26:05.155258",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "172.64.155.209",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:26:07.265082",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "102.132.103.61",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:26:07.896664",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "102.132.103.60",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from unknown remote IP]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:26:08.692598",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "104.18.87.42",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from remote IP]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:26:09.432018",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "20.199.120.85",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection to a remote IP that is not blacklisted]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:26:10.504313",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:26:11.349870",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:26:13.308996",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:26:13.498067",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "206.247.54.120",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious suspicious connection from a non-local IP address"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:26:14.164282",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:26:14.783792",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "170.114.1.172",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:26:15.337720",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "4.150.240.254",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:26:15.896481",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "20.199.120.85",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection to a remote IP]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:26:16.685610",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "206.247.54.120",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from unknown IP]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:26:17.426212",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:26:18.441037",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "20.123.29.87",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious remote IP is known to be involved in malicious activities"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:26:19.219934",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:26:19.402047",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:26:21.831754",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "191.237.206.80",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from a blacklisted IP address]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:28:17.130877",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "102.132.103.61",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:28:19.807540",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "102.132.103.60",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious unknown remote IP address"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:28:20.280482",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "104.18.87.42",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [unusual remote IP and lack of explicit permission for connection]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:28:21.348307",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "20.199.120.85",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from unknown IP]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:28:22.177645",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:28:23.678382",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:28:24.530543",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:28:25.355926",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "206.247.54.120",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious remote access from a non-local IP address."
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:28:26.105660",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:28:26.907104",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "170.114.1.172",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:28:27.483710",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "20.199.120.85",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from a foreign IP address]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:28:28.343438",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "206.247.54.120",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from a remote IP]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:28:29.134545",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:28:31.587023",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:28:35.300389",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:28:36.224304",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:28:41.429840",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "3.75.168.79",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:28:42.139658",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "134.224.240.229",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from a remote IP that is not blacklisted]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:28:43.288681",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:28:44.713543",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "13.107.246.77",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:28:45.288737",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:28:46.363173",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:28:46.548100",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:28:47.114685",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "13.107.4.254",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:28:47.679630",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "20.189.173.3",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:28:47.855958",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:28:49.091634",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:28:49.820097",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:28:50.782834",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "170.114.52.83",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection to a remote IP not in the whitelisted list]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:28:51.968376",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "173.194.76.188",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:28:52.167866",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:28:52.731935",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "170.114.52.4",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:28:53.297325",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "170.114.45.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:28:54.188382",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "150.171.64.254",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:28:55.735537",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "102.132.103.61",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from a blacklisted remote IP]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:28:56.628655",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "102.132.103.60",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious suspicious connection from remote IP address that is not blacklisted"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:28:57.475271",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "104.18.87.42",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:28:57.658796",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "20.199.120.85",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from a remote IP address that is not blacklisted]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:28:58.782339",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:28:59.401318",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:29:01.286186",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:29:01.477190",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "206.247.54.120",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:29:02.532912",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:29:02.706506",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "170.114.1.172",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from unknown IP]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:29:03.430886",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:29:03.614333",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "20.199.120.85",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:29:03.783608",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "206.247.54.120",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [unauthorized connection from a blacklisted IP]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:29:04.566798",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:29:06.011543",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:29:07.442871",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:29:13.268869",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "3.75.168.79",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:29:14.151315",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "134.224.240.229",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from a blacklisted IP]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:29:14.990781",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:29:16.277982",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "13.107.246.77",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious suspicious connection from a remote IP address that is not blacklisted"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:29:17.187966",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:29:17.975046",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:29:19.395335",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "13.107.4.254",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from a remote IP that is not blacklisted]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:29:20.486238",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "20.189.173.3",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:29:22.218437",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:29:22.681406",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:29:22.856736",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:29:23.040412",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "170.114.52.83",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:29:23.616167",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "173.194.76.188",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious suspicious connection from a remote IP address that is not blacklisted"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:29:24.522173",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:29:25.935432",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:29:26.110903",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "170.114.52.4",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from a non-trusted remote IP address]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:29:27.171170",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "170.114.45.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-08T19:29:27.835639",
+    "local_ip": "192.168.1.45",
+    "remote_ip": "150.171.64.254",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:06.435080",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:14.436626",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "199.232.81.91",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:14.641359",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:14.820553",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "13.107.21.239",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:14.997840",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:15.170087",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:15.474116",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "206.247.139.149",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:15.647966",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "204.79.197.254",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:15.828804",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "206.247.139.149",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:16.017424",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:16.191968",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "52.123.129.254",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:23.473590",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:23.702402",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "13.89.178.26",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:24.897450",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "13.89.178.26",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:27.158048",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:27.346716",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "74.125.71.188",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:27.531373",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "173.194.76.188",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:27.710473",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:27.884402",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "199.232.81.91",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:29.455646",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "13.107.18.254",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:29.991320",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "34.120.52.64",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:30.183094",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "170.114.1.173",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:30.731080",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "3.75.168.79",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:31.098883",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "20.199.120.182",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:31.442816",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:31.622126",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "134.224.240.213",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:32.325397",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "95.101.78.97",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:32.511470",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:32.687575",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:32.860892",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:33.041352",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "95.101.78.97",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:33.229420",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "20.44.10.123",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:33.406219",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "104.18.32.47",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:33.890930",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "104.18.32.47",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:34.080429",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "102.132.103.61",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:34.258339",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "104.26.12.170",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:39.441103",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:40.129837",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "199.232.81.91",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:40.317070",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:40.490484",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:40.936367",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "151.101.122.172",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:41.534201",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "13.107.21.239",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:41.718700",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:41.905662",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:42.090041",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "206.247.139.149",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:42.273837",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "204.79.197.254",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:47.303523",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "206.247.139.149",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:47.798001",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:47.979642",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:49.231345",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "52.123.129.254",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:49.574998",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "23.45.69.62",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:49.754061",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:49.929781",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "13.89.178.26",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:50.101832",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:50.892795",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "74.125.71.188",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:51.347088",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "142.251.37.227",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:51.806336",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "173.194.76.188",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:51.978947",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:52.147848",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "199.232.81.91",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:52.320957",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:52.891507",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "13.107.18.254",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:55.942236",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "34.120.52.64",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:56.142419",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "170.114.1.173",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:43:56.332379",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "3.75.168.79",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:03.267688",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "20.199.120.182",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:03.450804",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:03.643213",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "134.224.240.213",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:03.825918",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:04.170366",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:04.345413",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:04.514771",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:04.681556",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "95.101.78.97",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:04.854493",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "20.44.10.123",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:05.023854",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "104.18.32.47",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:05.646620",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "104.18.32.47",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:06.162947",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "23.45.69.2",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:06.334248",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "102.132.103.61",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:06.505365",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "104.26.12.170",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:11.840213",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "199.232.81.91",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:12.300994",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:12.475121",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:12.646355",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:13.263161",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "170.114.52.83",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:13.435729",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "204.79.197.254",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:13.775811",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:13.941545",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:14.111743",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "52.123.129.254",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:15.474619",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:15.660708",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "13.89.178.26",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:18.100512",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:18.285547",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "74.125.71.188",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:18.461688",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "173.194.76.188",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:18.640011",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:19.484613",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "199.232.81.91",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:19.657687",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:20.211098",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "13.107.18.254",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:20.386167",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "34.120.52.64",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:20.661361",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "170.114.1.173",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:20.832281",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "3.75.168.79",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:21.003294",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "20.199.120.182",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:21.171563",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:21.340169",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "134.224.240.213",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:25.071917",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:25.276988",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:25.452543",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:25.629644",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:25.808986",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "95.101.78.97",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:25.980883",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "20.44.10.123",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:26.151090",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "104.18.32.47",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:26.321063",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "104.18.32.47",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:26.764051",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "102.132.103.61",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:26.935176",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "104.26.12.170",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:32.666979",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "156.200.38.162",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:33.001374",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "199.232.81.91",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:33.189253",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:33.361776",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:33.530966",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "102.132.97.54",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:33.701199",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "170.114.52.83",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:36.697804",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "204.79.197.254",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:36.880710",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:37.062360",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:37.511342",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "52.123.129.254",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:37.843753",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:38.011955",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "13.89.178.26",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:38.177471",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:38.350837",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "74.125.71.188",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:38.522689",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "173.194.76.188",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:38.692442",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "156.200.36.35",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:38.858033",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:39.036739",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "199.232.81.91",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:39.201742",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "13.107.18.254",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:39.373101",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:39.549011",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "31.13.69.60",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:39.716085",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "34.120.52.64",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:39.886720",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "170.114.1.173",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:40.057616",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "3.75.168.79",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:40.235502",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "20.199.120.182",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:41.560144",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:42.544214",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "134.224.240.213",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:44:42.727052",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "102.132.103.60",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:53:36.052374",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "13.107.246.77",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious suspicious connection from unknown remote IP"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:53:37.491018",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "199.232.81.91",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from a known malicious IP address]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:53:38.395220",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:53:38.565261",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "95.101.78.88",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from unknown remote IP]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:53:39.339777",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "13.89.179.13",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from unknown IP]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:53:40.049343",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "74.125.71.188",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:53:40.664097",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:53:40.837926",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "102.132.103.60",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from unknown remote IP]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:53:41.635233",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "170.114.1.173",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious suspicious connection from an untrusted remote IP address (170.114.1.173) to a trusted local IP address (192.168.1.22)."
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:53:43.746806",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:53:44.884231",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "204.79.197.254",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:53:45.056604",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "199.232.81.91",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:53:45.599895",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "13.107.18.254",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:53:45.765780",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "102.132.103.60",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from unknown remote IP]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:53:46.522212",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:53:46.697577",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "102.132.103.61",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:53:48.126097",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "20.189.173.28",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious suspicious connection from unknown remote IP address"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:53:48.736219",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "31.13.69.60",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from a remote IP address not commonly seen]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:53:49.734623",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:53:50.344025",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "20.199.120.182",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from unknown remote IP]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T01:53:51.124296",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "170.114.52.4",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection to a remote IP address]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:03:20.268498",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "102.132.103.61",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:03:27.777295",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "3.75.168.79",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious suspicious connection from a remote IP that is not blacklisted"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:03:28.669829",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:03:28.844959",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "52.168.117.170",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious suspicious connection from a non-trusted remote IP address"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:03:29.639366",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "104.18.32.47",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from a remote IP]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:03:30.428519",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "20.195.81.80",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious suspicious connection from an unknown remote IP address"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:03:31.103449",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:03:32.517408",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "170.114.15.220",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from unknown IP]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:03:33.290613",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "134.224.240.213",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:03:35.014771",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:03:35.206793",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:03:35.720566",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:03:35.917179",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "20.199.120.151",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:03:36.126252",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:03:38.140611",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:03:38.741873",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:03:39.665084",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "13.107.246.77",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection to a remote IP]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:03:40.581952",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "64.233.167.188",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:03:41.305659",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "170.114.52.4",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from an unknown remote IP]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:03:42.173089",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:03:42.909551",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "142.250.110.188",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:03:43.495437",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:03:48.677270",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "102.132.103.61",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:03:49.503814",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "3.75.168.79",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection from a remote IP that is not blacklisted]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:03:50.532947",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:03:51.124736",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "52.168.117.170",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [unusual remote connection]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:03:51.669348",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "104.18.32.47",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection to a remote IP not in the network's usual range]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:03:52.798906",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "20.195.81.80",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [unknown remote IP address]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:03:53.353225",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:03:54.783569",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "170.114.15.220",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:03:55.717312",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "134.224.240.213",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious suspicious connection from a remote IP address not in the whitelist"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:03:56.537429",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:03:56.711691",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:03:57.422029",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:04:00.290037",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "172.64.155.209",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [unusual connection from blacklisted IP]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:04:01.009799",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:04:02.421015",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:04:03.382817",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "20.199.120.151",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [unusual remote IP address]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:04:03.981514",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:04:04.145117",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:04:05.325100",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:04:07.106056",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "13.107.246.77",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [unusual remote IP and potential unknown connection]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:04:07.923160",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "64.233.167.188",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:04:08.094308",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "170.114.52.4",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [suspicious connection]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:11:54.251196",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "52.168.117.168",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: TOR exit node]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:11:58.199787",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "64.233.167.188",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:12:02.850154",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "142.250.110.188",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: The remote IP address `142.250.110.188` is not a corporate IP range, which indicates potential unauthorized access from an outside source.]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:12:05.161761",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:12:05.365192",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "144.195.45.164",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: connection to TOR exit node (144.195.45.164)]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:12:06.596369",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "3.77.249.83",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: connection to a non-corporate IP range (3.77.249.83)]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:12:08.035573",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "170.114.52.83",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: connection to known malicious IP (170.114.52.83)]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:12:09.286761",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:12:09.510159",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:12:09.698106",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "102.132.103.61",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [TOR exit node or known malicious IP]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:12:10.488595",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "172.64.155.209",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:12:10.685173",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "20.199.120.151",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: TOR exit node detected]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:12:11.437767",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "134.224.240.213",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: connections to a non-corporate IP range (`134.224.240.213`)]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:12:12.980990",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:12:13.186405",
+    "local_ip": "192.168.1.22",
+    "remote_ip": "104.26.13.170",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [TOR exit node connection]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:12:13.841271",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:12:14.042468",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:12:14.240146",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-10T03:12:14.419923",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:15:39.501429",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:15:48.827541",
+    "local_ip": "192.168.1.9",
+    "remote_ip": "13.107.246.77",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [TOR exit node]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:15:49.508212",
+    "local_ip": "192.168.1.9",
+    "remote_ip": "104.16.103.112",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: connection to a non-corporate IP range (104.16.103.112) and unknown protocol]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:15:51.277785",
+    "local_ip": "192.168.1.9",
+    "remote_ip": "104.83.138.254",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: The remote IP `104.83.138.254` is not a known corporate IP range, which raises suspicion. Additionally, the protocol is TCP, which could indicate C2 communication.]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:15:54.324325",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:15:54.577016",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:15:54.821957",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:15:55.075701",
+    "local_ip": "192.168.1.9",
+    "remote_ip": "104.16.103.112",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [TOR exit node]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:15:55.683997",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:15:55.907076",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:15:56.142346",
+    "local_ip": "192.168.1.9",
+    "remote_ip": "20.201.14.155",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: connection to a non-corporate IP range]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:15:57.266050",
+    "local_ip": "192.168.1.9",
+    "remote_ip": "64.233.167.188",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: connection to a Google IP address (64.233.167.188) outside regular work hours]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:15:58.903001",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:15:59.118585",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:15:59.344761",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:15:59.560678",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:15:59.769527",
+    "local_ip": "192.168.1.9",
+    "remote_ip": "150.171.85.254",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [TOR exit node detected]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:16:00.483448",
+    "local_ip": "192.168.1.9",
+    "remote_ip": "34.120.52.64",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [TOR exit node]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:16:01.125813",
+    "local_ip": "192.168.1.9",
+    "remote_ip": "20.199.120.182",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: TOR exit node IP]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:16:02.008071",
+    "local_ip": "192.168.1.9",
+    "remote_ip": "35.190.80.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: TOR exit node IP, high-volume outbound traffic]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:16:03.182419",
+    "local_ip": "192.168.1.9",
+    "remote_ip": "141.101.90.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: TOR exit node IP (141.101.90.1)]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:16:04.490194",
+    "local_ip": "192.168.1.9",
+    "remote_ip": "140.82.113.26",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: connection to known malicious IP (140.82.113.26)]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:16:05.770279",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:16:05.974898",
+    "local_ip": "192.168.1.9",
+    "remote_ip": "92.122.225.121",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: suspicious remote IP, possible C2 communication]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:16:07.000467",
+    "local_ip": "192.168.1.9",
+    "remote_ip": "52.108.9.254",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: The remote IP `52.108.9.254` is not in the corporate network range (`192.168.x.x`).]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:16:09.099086",
+    "local_ip": "192.168.1.9",
+    "remote_ip": "104.16.102.112",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: connections to a known malicious IP (104.16.102.112)]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:16:10.451271",
+    "local_ip": "192.168.1.9",
+    "remote_ip": "141.101.90.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: Unauthorized Access & Network Anomalies - connection to a non-corporate IP range]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:16:11.993897",
+    "local_ip": "192.168.1.9",
+    "remote_ip": "40.79.189.59",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason] - TOR exit node (40.79.189.59)"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:16:13.278825",
+    "local_ip": "192.168.1.9",
+    "remote_ip": "51.116.246.105",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [unknown IP range, possible C2 communication]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:16:14.176076",
+    "local_ip": "192.168.1.9",
+    "remote_ip": "64.233.167.188",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: connections to known malicious IP, 64.233.167.188]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:16:15.597473",
+    "local_ip": "192.168.1.9",
+    "remote_ip": "13.107.246.77",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [TOR exit node IP 13.107.246.77]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:16:16.779156",
+    "local_ip": "192.168.1.9",
+    "remote_ip": "54.246.144.89",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: connection to a non-corporate IP range (54.246.144.89)]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:16:18.414838",
+    "local_ip": "192.168.1.9",
+    "remote_ip": "134.224.240.223",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [connection to a non-corporate IP range (134.224.240.223)]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:16:19.858708",
+    "local_ip": "192.168.1.9",
+    "remote_ip": "95.101.78.83",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [unknown IP from non-corporate range]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:16:20.706122",
+    "local_ip": "192.168.1.9",
+    "remote_ip": "40.79.189.59",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason] = connection to a non-corporate IP range (outside `192.168.x.x`)"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:16:22.304532",
+    "local_ip": "192.168.1.9",
+    "remote_ip": "204.79.197.222",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: connection to a known malicious IP (204.79.197.222)]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:16:23.661545",
+    "local_ip": "192.168.1.9",
+    "remote_ip": "141.101.90.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [unknown remote IP]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:16:24.220302",
+    "local_ip": "192.168.1.9",
+    "remote_ip": "104.16.102.112",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [TOR exit node detected]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:16:24.923051",
+    "local_ip": "192.168.1.9",
+    "remote_ip": "13.107.246.77",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [TOR exit node]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:16:25.490160",
+    "local_ip": "192.168.1.9",
+    "remote_ip": "3.77.249.83",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [connection to a known malicious IP]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:16:26.288927",
+    "local_ip": "192.168.1.9",
+    "remote_ip": "13.107.246.77",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: IP `13.107.246.77` is a known malicious IP, and the connection to this IP is suspicious]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:16:28.301798",
+    "local_ip": "192.168.1.9",
+    "remote_ip": "141.101.90.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: TOR exit node]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:16:28.996155",
+    "local_ip": "192.168.1.9",
+    "remote_ip": "170.114.15.224",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason] : Connection to a non-corporate IP range (170.114.15.224)."
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:16:30.484710",
+    "local_ip": "192.168.1.9",
+    "remote_ip": "102.132.103.61",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: connections to non-corporate IP ranges]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:16:31.413601",
+    "local_ip": "192.168.1.9",
+    "remote_ip": "104.16.103.112",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: The remote IP `104.16.103.112` is not a corporate IP range, indicating unauthorized access from outside the network.]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:16:33.444851",
+    "local_ip": "192.168.1.9",
+    "remote_ip": "13.107.246.77",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: connecting to a TOR exit node]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:16:34.287556",
+    "local_ip": "192.168.1.9",
+    "remote_ip": "13.107.5.93",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason] : TOR exit node (13.107.5.93)"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:16:35.489716",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:15:30.272719",
+    "source_ip": "192.168.1.9",
+    "queried_domain": "vscode.download.prss.microsoft.com.",
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:15:30.273782",
+    "source_ip": "192.168.1.9",
+    "queried_domain": "vscode.download.prss.microsoft.com.",
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:15:30.283462",
+    "source_ip": "163.121.128.134",
+    "queried_domain": "vscode.download.prss.microsoft.com.",
+    "classification": "malicious [reason] - suspicious DNS query to a Microsoft domain, possibly indicating C2 (Command & Control) communication pattern."
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:15:30.287618",
+    "source_ip": "163.121.128.134",
+    "queried_domain": "vscode.download.prss.microsoft.com.",
+    "classification": "malicious [suspicious DNS query, possible C2 communication]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:54:34.272031",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:54:39.565655",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:54:39.866540",
+    "local_ip": "172.20.10.6",
+    "remote_ip": "13.69.239.78",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: connections to known malicious IPs]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:54:40.874974",
+    "local_ip": "172.20.10.6",
+    "remote_ip": "102.132.103.61",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: TOR exit node]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:54:41.914511",
+    "local_ip": "172.20.10.6",
+    "remote_ip": "104.16.102.112",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: TOR exit node detected]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:54:43.255816",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:54:43.634829",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:54:43.931356",
+    "local_ip": "172.20.10.6",
+    "remote_ip": "13.107.42.16",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: TOR exit node]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:54:44.788449",
+    "local_ip": "172.20.10.6",
+    "remote_ip": "170.114.15.230",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: TOR exit node]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:54:45.636707",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:54:50.782264",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:54:51.058066",
+    "local_ip": "172.20.10.6",
+    "remote_ip": "173.194.76.188",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [TOR exit node connection]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:54:51.817726",
+    "local_ip": "172.20.10.6",
+    "remote_ip": "20.199.120.182",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: Unknown IP (20.199.120.182) not within corporate IP range, potential external connection]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:54:53.874763",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:54:54.178257",
+    "local_ip": "172.20.10.6",
+    "remote_ip": "206.247.54.36",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: connection to a known malicious IP]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:54:55.242703",
+    "local_ip": "172.20.10.6",
+    "remote_ip": "134.224.240.217",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [connection to a suspicious IP, 134.224.240.217]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:54:56.711225",
+    "local_ip": "172.20.10.6",
+    "remote_ip": "173.194.76.188",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: suspicious remote IP address]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:54:57.637261",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:54:57.898069",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:54:58.171993",
+    "local_ip": "172.20.10.6",
+    "remote_ip": "206.247.54.36",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: TOR exit node]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:54:58.994185",
+    "local_ip": "172.20.10.6",
+    "remote_ip": "104.16.102.112",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason]: suspicious connection to a known malicious IP (104.16.102.112)"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:55:00.781291",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:55:01.156023",
+    "local_ip": "172.20.10.6",
+    "remote_ip": "170.114.52.33",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: C2 communication pattern (beaconing traffic)]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:55:02.401674",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:55:02.658565",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-11T21:55:02.931670",
+    "local_ip": "172.20.10.6",
+    "remote_ip": "34.120.52.64",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: connection to a known malicious IP, 34.120.52.64]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:55:07.597835",
+    "local_ip": "192.168.1.212",
+    "remote_ip": "102.132.103.60",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: The remote IP address is not within the corporate network range (`192.168.x.x`), indicating unauthorized access.]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:55:19.313039",
+    "local_ip": "192.168.1.212",
+    "remote_ip": "216.58.212.110",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:55:22.143551",
+    "local_ip": "192.168.1.212",
+    "remote_ip": "216.239.32.116",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: connections to TOR exit nodes, known malicious IPs, or dark web servers]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:55:24.014035",
+    "local_ip": "192.168.1.212",
+    "remote_ip": "108.159.120.106",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: connection to non-corporate IP range (outside 192.168.x.x)]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:55:25.906344",
+    "local_ip": "192.168.1.212",
+    "remote_ip": "2.21.2.155",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [TOR exit node]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:55:26.596907",
+    "local_ip": "192.168.1.212",
+    "remote_ip": "23.44.140.115",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: Remote IP is not a corporate IP range and is blacklisted]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:55:28.149586",
+    "local_ip": "192.168.1.212",
+    "remote_ip": "204.79.197.203",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [TOR exit node connection]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:55:28.946033",
+    "local_ip": "192.168.1.212",
+    "remote_ip": "95.101.78.17",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [unauthorized access & login anomalies, remote_ip is outside non-corporate IP ranges (e.g., not `192.168.x.x`)]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:53:45.438953",
+    "source_ip": "192.168.1.212",
+    "queried_domain": "api.msn.com.",
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:53:45.478787",
+    "source_ip": "192.168.1.212",
+    "queried_domain": "api.msn.com.",
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:53:45.479785",
+    "source_ip": "163.121.128.134",
+    "queried_domain": "api.msn.com.",
+    "classification": "malicious [DNS tunneling]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:53:45.549846",
+    "source_ip": "163.121.128.135",
+    "queried_domain": "api.msn.com.",
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:53:46.380297",
+    "source_ip": "192.168.1.212",
+    "queried_domain": "deff.nelreports.net.",
+    "classification": "malicious [DNS tunneling]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:53:46.381787",
+    "source_ip": "192.168.1.212",
+    "queried_domain": "deff.nelreports.net.",
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:53:46.382283",
+    "source_ip": "192.168.1.212",
+    "queried_domain": "aefd.nelreports.net.",
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:53:46.382779",
+    "source_ip": "192.168.1.212",
+    "queried_domain": "aefd.nelreports.net.",
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:53:46.383369",
+    "source_ip": "192.168.1.212",
+    "queried_domain": "aefd.nelreports.net.",
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:53:46.383630",
+    "source_ip": "192.168.1.212",
+    "queried_domain": "aefd.nelreports.net.",
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:53:46.384373",
+    "source_ip": "192.168.1.212",
+    "queried_domain": "deff.nelreports.net.",
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:53:46.384556",
+    "source_ip": "192.168.1.212",
+    "queried_domain": "deff.nelreports.net.",
+    "classification": "malicious [DNS tunneling]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:53:46.858240",
+    "source_ip": "192.168.1.212",
+    "queried_domain": "windows.msn.com.",
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:53:46.945986",
+    "source_ip": "163.121.128.134",
+    "queried_domain": "windows.msn.com.",
+    "classification": "malicious [DNS tunneling]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:53:48.395688",
+    "source_ip": "192.168.1.212",
+    "queried_domain": "windows.msn.com.",
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:53:48.395688",
+    "source_ip": "192.168.1.212",
+    "queried_domain": "windows.msn.com.",
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:53:48.395688",
+    "source_ip": "192.168.1.212",
+    "queried_domain": "assets.msn.com.",
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:53:48.395688",
+    "source_ip": "192.168.1.212",
+    "queried_domain": "assets.msn.com.",
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:53:48.409628",
+    "source_ip": "163.121.128.134",
+    "queried_domain": "windows.msn.com.",
+    "classification": "malicious [DNS tunneling]\n\nReason: The queried domain is `windows.msn.com`, which could be an indication of DNS tunneling, a suspicious communication pattern used by malware to communicate with its command and control (C2) server."
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:53:48.413557",
+    "source_ip": "163.121.128.134",
+    "queried_domain": "windows.msn.com.",
+    "classification": "malicious [DNS tunneling]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:53:48.413777",
+    "source_ip": "163.121.128.134",
+    "queried_domain": "assets.msn.com.",
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:53:48.699475",
+    "source_ip": "192.168.1.212",
+    "queried_domain": "img-s-msn-com.akamaized.net.",
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:53:48.699475",
+    "source_ip": "192.168.1.212",
+    "queried_domain": "img-s-msn-com.akamaized.net.",
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:53:48.700466",
+    "source_ip": "192.168.1.212",
+    "queried_domain": "sb.scorecardresearch.com.",
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:53:48.700466",
+    "source_ip": "192.168.1.212",
+    "queried_domain": "sb.scorecardresearch.com.",
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:53:48.711472",
+    "source_ip": "163.121.128.134",
+    "queried_domain": "img-s-msn-com.akamaized.net.",
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:53:48.712477",
+    "source_ip": "163.121.128.134",
+    "queried_domain": "sb.scorecardresearch.com.",
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:53:48.712477",
+    "source_ip": "163.121.128.134",
+    "queried_domain": "sb.scorecardresearch.com.",
+    "classification": "malicious [C2 (Command & Control) communication pattern - DNS tunneling]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:53:48.713470",
+    "source_ip": "163.121.128.134",
+    "queried_domain": "img-s-msn-com.akamaized.net.",
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:53:48.713470",
+    "source_ip": "192.168.1.212",
+    "queried_domain": "www.bing.com.",
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:53:48.713470",
+    "source_ip": "192.168.1.212",
+    "queried_domain": "www.bing.com.",
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:57:15.314590",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:57:15.773649",
+    "local_ip": "192.168.1.212",
+    "remote_ip": "40.79.173.41",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: Remote IP is not a corporate IP range, and it's known to be a TOR exit node]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:57:17.983252",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:57:24.177779",
+    "local_ip": "192.168.1.212",
+    "remote_ip": "172.64.155.209",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [outside non-corporate IP range]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:57:25.309573",
+    "local_ip": "192.168.1.212",
+    "remote_ip": "40.79.173.41",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: unauthorized network connection from non-corporate IP range]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:57:26.788612",
+    "local_ip": "192.168.1.212",
+    "remote_ip": "20.199.120.151",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: connection to non-corporate IP range]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:57:28.157498",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:57:28.411246",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:57:28.647586",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:57:28.897588",
+    "local_ip": "192.168.1.212",
+    "remote_ip": "142.251.37.195",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [TOR exit node IP]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:57:29.767768",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:57:30.025120",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:57:30.259116",
+    "local_ip": "192.168.1.212",
+    "remote_ip": "108.159.120.106",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: unauthorized access from non-corporate IP range]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:57:31.690138",
+    "local_ip": "192.168.1.212",
+    "remote_ip": "102.132.103.61",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [unknown remote IP]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:57:32.414664",
+    "local_ip": "192.168.1.212",
+    "remote_ip": "74.125.206.188",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:57:32.682633",
+    "local_ip": "192.168.1.212",
+    "remote_ip": "170.114.52.4",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: Connection to a suspicious IP (170.114.52.4) not in the corporate network]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:57:34.920202",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:57:35.610759",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:57:35.878157",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:57:42.580833",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:57:42.909108",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:57:43.158222",
+    "local_ip": "192.168.1.212",
+    "remote_ip": "134.224.240.224",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: unknown IP address outside corporate range]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:57:44.324858",
+    "local_ip": "192.168.1.212",
+    "remote_ip": "170.114.1.184",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: connection to a known malicious IP (170.114.1.184)]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:57:51.182949",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:57:51.560843",
+    "local_ip": "192.168.1.212",
+    "remote_ip": "40.79.173.41",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: unauthorized connection to a non-corporate IP range (outside `192.168.x.x`)]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:57:53.863912",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:57:54.139142",
+    "local_ip": "192.168.1.212",
+    "remote_ip": "13.107.42.16",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: connection to a known malicious IP (13.107.42.16)]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:57:55.653825",
+    "local_ip": "192.168.1.212",
+    "remote_ip": "40.79.173.41",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason] = outside non-corporate IP range (40.79.173.41)"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:57:57.217636",
+    "local_ip": "192.168.1.212",
+    "remote_ip": "20.199.120.151",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: connection to a non-corporate IP range (20.199.120.151)]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:57:59.093594",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:58:02.125617",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:58:02.385226",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:58:02.623994",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:58:02.834484",
+    "local_ip": "192.168.1.212",
+    "remote_ip": "23.44.140.12",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [unknown IP, potential C2 communication]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:58:03.692220",
+    "local_ip": "192.168.1.212",
+    "remote_ip": "142.251.37.195",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: The remote IP address `142.251.37.195` is not a corporate IP range and matches the pattern of a known malicious IP.]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:58:06.083861",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:58:06.311713",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:58:06.519760",
+    "local_ip": "192.168.1.212",
+    "remote_ip": "102.132.103.61",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [connection to a potentially malicious IP address]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:58:07.413314",
+    "local_ip": "192.168.1.212",
+    "remote_ip": "74.125.206.188",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason] Because the remote IP address `74.125.206.188` is a Google DNS server, but it's not the primary DNS server for the company (`192.168.x.x`). This could be an attempt to tunnel traffic through Google's servers or use them as a C2 (Command & Control) channel."
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:58:12.288843",
+    "local_ip": "192.168.1.212",
+    "remote_ip": "170.114.52.4",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: suspicious connection to a non-corporate IP range]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:58:13.655440",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:58:13.900240",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:58:14.105882",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:58:14.311209",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:58:14.523165",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:58:14.720768",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:58:14.928887",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:58:15.130311",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:58:15.328655",
+    "local_ip": "192.168.1.212",
+    "remote_ip": "134.224.240.224",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [TOR exit node detected]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:58:15.977828",
+    "local_ip": "192.168.1.212",
+    "remote_ip": "170.114.1.184",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: unknown IP range, outside corporate network]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:58:21.945498",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:58:22.314563",
+    "local_ip": "192.168.1.212",
+    "remote_ip": "40.79.173.41",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason] -> TOR exit node (40.79.173.41)"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:58:23.532736",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:58:23.733518",
+    "local_ip": "192.168.1.212",
+    "remote_ip": "13.107.42.16",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [TOR exit node connection]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:58:24.366035",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:58:24.579323",
+    "local_ip": "192.168.1.212",
+    "remote_ip": "40.79.173.41",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: The remote IP address (40.79.173.41) is not a corporate IP range, and the IP is blacklisted.]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:58:26.757108",
+    "local_ip": "192.168.1.212",
+    "remote_ip": "20.199.120.151",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "malicious [reason: connection to a known malicious IP]"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:58:27.751994",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:58:27.962924",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:58:28.160096",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
+{
+    "type": "network",
+    "timestamp": "2025-02-12T01:58:28.358371",
+    "local_ip": "127.0.0.1",
+    "remote_ip": "127.0.0.1",
+    "protocol": "TCP",
+    "blacklisted": false,
+    "classification": "normal"
+},
