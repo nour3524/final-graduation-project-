@@ -2,23 +2,19 @@ import subprocess
 import os
 import signal
 import sys
-import time
 
-# Store process IDs
-processes = []
+# Path to your virtual environment Python
+PYTHON_PATH = r"D:\FaceDetectionProject\env\Scripts\python.exe"
+
+process = None
 
 def start_system():
-    """Start the face recognition system."""
+    global process
     print("🚀 Starting Face Recognition System...")
 
-    # Start authentication & auto-lock
-    p1 = subprocess.Popen(["python", "face_authenticator.py"], creationflags=subprocess.CREATE_NEW_PROCESS_GROUP)
-    p2 = subprocess.Popen(["python", "auto_lock_unlock.py"], creationflags=subprocess.CREATE_NEW_PROCESS_GROUP)
-    
-    processes.extend([p1, p2])
+    process = subprocess.Popen([PYTHON_PATH, "auto_lock_unlock.py"], creationflags=subprocess.CREATE_NEW_PROCESS_GROUP)
 
     print("✅ System Activated! (Type 'stop' to deactivate)")
-
     while True:
         user_input = input("> ").strip().lower()
         if user_input == "stop":
@@ -26,18 +22,15 @@ def start_system():
             break
 
 def stop_system():
-    """Stop all running processes properly."""
+    global process
     print("🛑 Stopping Face Recognition System...")
-
-    for process in processes:
-        try:
-            if os.name == "nt":  # Windows
-                subprocess.call(["taskkill", "/F", "/T", "/PID", str(process.pid)])
-            else:  # Linux/Mac
-                os.killpg(os.getpgid(process.pid), signal.SIGTERM)
-        except Exception as e:
-            print(f"⚠️ Error stopping process: {e}")
-
+    try:
+        if os.name == "nt":
+            subprocess.call(["taskkill", "/F", "/T", "/PID", str(process.pid)])
+        else:
+            os.killpg(os.getpgid(process.pid), signal.SIGTERM)
+    except Exception as e:
+        print(f"⚠️ Error stopping process: {e}")
     print("✅ System Deactivated!")
     sys.exit()
 
