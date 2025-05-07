@@ -1,5 +1,3 @@
-"""This script handles automatic lock/unlock using face recognition."""
-
 import pyodbc
 import face_recognition
 import cv2
@@ -8,17 +6,10 @@ import time
 import socket
 import numpy as np  # ✅ Added for face distance handling
 from logger import log_event
-import traceback
-import sys
+from email_alert import send_intruder_alert
+from reply_checker import wait_for_owner_reply
 
-try:
-    print("Auto Lock Unlock Started")
-    # Your existing code...
 
-except Exception:
-    with open("error_log.txt", "a") as f:
-        f.write(traceback.format_exc())
-    sys.exit(1)
 
 #  Get PC name
 PC_NAME = socket.gethostname()
@@ -27,13 +18,18 @@ PC_NAME = socket.gethostname()
 user_geometry_profile = None
 printed_no_face = False
 
+# Track if email has been sent already
+email_sent = False 
+
+awaiting_email_reply = False
+
 
 # DB fetch: Get user data
 def get_user_info(user_name):
 
     conn = pyodbc.connect(
         "DRIVER={ODBC Driver 17 for SQL Server};"
-        "SERVER=DESKTOP-6P94OPL;"
+        "SERVER=localhost;"
         "DATABASE=UEBA_Analytics;"
         "Trusted_Connection=yes;"
     )
@@ -53,7 +49,7 @@ def get_user_info(user_name):
 def load_encodings_from_db():
     conn = pyodbc.connect(
         "DRIVER={ODBC Driver 17 for SQL Server};"
-        "SERVER=DESKTOP-6P94OPL;"
+        "SERVER=localhost;"
         "DATABASE=UEBA_Analytics;"
         "Trusted_Connection=yes;"
     )
@@ -88,6 +84,7 @@ last_seen_time = None
 LOCK_TIMEOUT = 15
 last_presence_log = 0
 PRESENCE_LOG_INTERVAL = 10
+email_sent = False  # ✅ Initialize email_sent variable
 
 print(f"🔍 Face Recognition Running on PC: {PC_NAME}")
 
@@ -95,7 +92,7 @@ try:
     while True:
         ret, frame = cap.read()
         if not ret:
-            print("⚠️ Camera error.")
+            print("⚠ Camera error.")
             break
 
         rgb_frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
@@ -149,18 +146,43 @@ try:
                                         "face_height": face_height,
                                     }
                                     print(
-
                                         f"📐 Geometry profile captured: {user_geometry_profile}"
                                     )
                         else:
                             print(f"❌ {recognized_name} is NOT authorized on this PC.")
-                            log_event(
-                                "unauthorized",
-                                recognized_name,
-                                f"Tried access on {PC_NAME}",
-                            )
+
+                            log_event("unauthorized", recognized_name, f"Tried access on {PC_NAME}")
+                            cv2.imwrite("intruder.jpg", frame)
+
+                            if not is_alert_pending():
+                                print("🚨 Unauthorized access detected. Sending email alert...")
+                                send_intruder_alert("intruder.jpg", recognized_name)
+                                set_alert_pending()
+                                 
+                           
+                                decision = wait_for_owner_reply()
+                                if decision=="approve":
+                                     print("✅ Owner approved from email. Access allowed.")
+                                     user_present = True
+                                     verified_encoding = encoding
+                                     last_seen_time = time.time()
+                                     last_presence_log = time.time()
+                                    
+                                     continue
+                                elif decision == "deny":
+                                    print("❌ Access denied. Locking again.")
+                                    os.system("rundll32.exe user32.dll,LockWorkStation")
+                                    
+                                    
+                                else:
+                                     print("⏳ No reply yet or timeout.")
+                                    
+                               
+                                    
                     else:
                         print("❌ Unknown face.")
+                        cv2.imwrite("intruder.jpg", frame)
+                        send_intruder_alert("intruder.jpg", "Unknown")
             else:
                 print("👤 No face detected for login.")
         else:
@@ -220,7 +242,7 @@ try:
                                 match_eye_height = (abs(eye_height - user_geometry_profile["eye_height"]) < 10)
 
                                 if match_eye_width and match_eye_height:
-                                    print("👁️ Eye geometry matched. User still present.")
+                                    print("👁 Eye geometry matched. User still present.")
                                     last_seen_time = time.time()
                                     printed_no_face = False
                                 else:
@@ -240,7 +262,7 @@ try:
 
             # Check timeout regardless of face/geometry
             if last_seen_time and (time.time() - last_seen_time > LOCK_TIMEOUT):
-                print("⏱️ No valid presence detected. Locking...")
+                print("⏱ No valid presence detected. Locking...")
                 log_event("lock", recognized_name, "Timeout - no presence")
                 os.system("rundll32.exe user32.dll,LockWorkStation")
                 user_present = False
