@@ -1,4 +1,4 @@
-🔐 Hybrid UEBA Insider Threat Detection System — Enterprise-Ready Prototype
+🔐 Insider Lens: Hybrid UEBA Insider Threat Detection System — Enterprise-Ready Prototype
 
 
 ⸻
